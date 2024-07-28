@@ -6,13 +6,17 @@
   <body>
   @include('admin.header')
 
+
   @include('admin.sidebar')
+
 
       <div class="page-content">
         <div class="page-header">
           <div class="container-fluid">
 
-        
+
+
+
           </div>
       </div>
     </div>
@@ -27,6 +31,8 @@
     <script src="{{asset('admincss/js/front.js')}}"></script>
   </body>
 </html>
-asset
-(
-)
+
+
+
+
+

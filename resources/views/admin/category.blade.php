@@ -74,11 +74,16 @@
             <table class="table_deg">
                 <tr>
                     <th>Category Name</th>
+                    <th>Edit</th>
                     <th>Delete</th>
                 </tr>
                 @foreach ($data as $data)
                 <tr>
                     <td>{{$data->category_name}}</td>
+
+                    <td>
+                      <a class="btn btn-succes" href="
+                      {{url('edit_category',$data->id)}}">Edit</a></td>
                     <td>
                         <a class="btn btn-danger" onclick="conformation(event)" href="{{url('delete_category',$data-> id )}}">
 
